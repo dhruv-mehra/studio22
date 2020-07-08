@@ -1,0 +1,258 @@
+body {
+  text-align: center;
+  font-family: nobel, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  border: 0px;
+}
+/*//////////////////////header////////////////////////*/
+header{
+  padding:0px 0px 50px;
+  border-top: 20px solid #75ffeb;
+  border-bottom: 20px solid #75ffeb;
+}
+/*//////////////////////body////////////////////////*/
+.title, .credits, .poster, .logline, .specs, .intro, .statement, .links, .bts, .warning, .final{
+  padding: 25px 20%;
+}
+.title, .credits, .poster, .intro, .statement, .bts{
+  background-color: white;
+  color: #222222;
+}
+.logline, .specs, .links{
+  background-color: #222222;
+  color: white;
+}
+/*//////////////////////title////////////////////////*/
+h3{
+  font-size: 4em;
+  padding: 75px 0px 0px;
+  margin: 0;
+  font-style: italic;
+}
+p{
+  margin: 0px;
+  padding: 15px 0px;
+}
+.title > p{
+  font-size: 1em;
+  font-style: italic;
+  color: #999999;
+}
+/*//////////////////////credits////////////////////////*/
+.credits{
+  padding:25px 0px 50px;
+}
+.credits p{
+  font-size: 1em;
+  margin: 0px;
+  padding: 5px;
+}
+/*//////////////////////poster////////////////////////*/
+.poster{
+  font-size: .75em;
+  font-style: italic;
+}
+.poster{
+  padding: 25px 0px 50px;
+}
+.poster img{
+  height: 80vh;
+}
+/*//////////////////////logline////////////////////////*/
+.logline{
+  font-size: 1.5em;
+  font-style: italic;
+  padding:75px 25% 0px;
+
+}
+/*//////////////////////specs////////////////////////*/
+.divider{
+  color: white;
+  font-size: 1.5em;
+  display: inline;
+}
+.specs li{
+  display: inline;
+  font-size: 1.25em;
+  font-family: lores-12-narrow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #75ffeb;
+  padding: 0px 10px;
+}
+
+ol{
+  margin: 0;
+  padding: 0;
+}
+
+/*//////////////////////warning////////////////////////*/
+.warning{
+  padding: 0px 0px 75px;
+  font-size: 1em;
+  font-style: italic;
+}
+/*//////////////////////statment////////////////////////*/
+.intro{
+  padding: 100px 20% 0px;
+}
+.statement, .links{
+  text-align:left;
+}
+.intro > p, .links > p, .bts > p{
+  font-size: 1.5em;
+  font-family: lores-12-narrow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #7936e1;
+  padding:0px 0px 50px;
+}
+.links > p{
+  color: #75ffeb;
+}
+.links{
+  text-align: center;
+  padding: 50px;
+}
+.links a{
+  text-decoration: none;
+  color: #7936e1;
+  padding: 25px 15px;
+  font-size:1.25em;
+  font-family: lores-12-narrow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.links a:hover{
+  color: white;
+}
+/*//////////////////////bts////////////////////////*/
+.bts{
+  text-align: center;
+  padding: 100px 5px;
+}
+/*//////////////////////film////////////////////////*/
+.film{
+  padding: 75px 10%;
+}
+.film img{
+  height: 75px;
+}
+.presents{
+  padding: 0px 0px 25px;
+  font-size: .75em;
+  font-style: italic;
+}
+#title{
+  font-family: nobel, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 3em;
+  padding: 0px 0px 50px;
+}
+.film iframe{
+  border: 10px solid #75ffeb;
+}
+.countdown{
+  text-align: center;
+  width: 30%;
+  border: 3px solid #7936e1;
+  padding: 20px;
+  margin: 20px auto 0px;
+  color: #7936e1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size:2em;
+}
+.nextFilm{
+  padding: 100px 0px 0px;
+}
+.nextFilm a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.25em;
+}
+.nextFilm a:hover{
+  color: #75ffeb;
+}
+
+/*//////////////////////footer////////////////////////*/
+.foot{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  transform: translate(0, 0);
+}
+footer{
+  background-color:white;
+  padding: 50px 0px 25px;
+}
+
+/*//////////////////////Responsiveness////////////////////////*/
+@media screen and (max-width: 900px) {
+  .title, .credits, .poster, .logline, .specs, .intro, .statement, .links, .warning, .final{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .bts{
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .specs li{
+    display: block;
+    font-size: 1.5em;
+    padding: 5px 0px;
+  }
+  .divider{
+    display: none;
+  }
+
+}
+@media screen and (max-width: 700px) {
+  .title, .credits, .poster, .logline, .specs, .intro, .statement, .links, .bts, .warning, .final, .film{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .h1{
+    display: block;
+    font-size: 1.3em;
+    padding: 0px 0px 25px;
+  }
+  .poster, .bts{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .poster img{
+    height: 100vh;
+  }
+  .film iframe{
+    border: none;
+  }
+
+@media screen and (max-width: 500px) {
+  .title, .credits, .poster, .logline, .specs, .intro, .statement, .links, .warning, .final, .film{
+    padding: 25px 5%;
+  }
+  nav li{
+    display: block;
+    padding: 10px;
+  }
+  .poster img{
+    width: 100%;
+    height: auto;
+  }
+  .links > p{
+    padding: 0px;
+  }
+
+  .links a{
+    display: block;
+    padding: 10px;
+  }
+}

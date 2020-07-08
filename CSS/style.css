@@ -1,0 +1,161 @@
+body{
+  font-family: nobel, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  margin: 0;
+  padding: auto;
+  height: 95vh;
+  border: 20px solid #75ffeb;
+  background-color: #222222;
+  color: white;
+  text-align: center;
+}
+.heading{
+  display: inline;
+}
+.h0, .h22{
+  font-size: 3em;
+  font-family: nobel, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  padding:0;
+  display: inline;
+  color: white;
+}
+.h1{
+  display: inline;
+}
+.h22{
+  color: #7936e1;
+}
+h1{
+  font-size: 3em;
+  color: #75ffeb;
+  display: inline;
+}
+h2{
+  font-size: 2em;
+  display: inline;
+}
+.logo img{
+  width: 75px;
+  display: inline;
+}
+.logo{
+  margin: 25px;
+  font-family: lores-12-narrow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+nav li{
+  display: inline;
+  padding: 0 10px;
+  font-style: italic;
+}
+nav a{
+  text-decoration: none;
+  color: #888888;
+}
+.welcome{
+  font-family: nobel, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.5em;
+  text-align: center;
+  width: 30%;
+  border: 3px solid #7936e1;
+  padding: 25px;
+  margin: 50px auto 0px;
+  color: #7936e1;
+}
+.welcome > p{
+  color: #7936e1;
+  margin: 0px 0px 20px;
+}
+.countdown{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: lores-12-narrow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:1.25em;
+  margin: 20px;
+}
+.count p{
+  margin: 0px 20px;
+}
+.number{
+  font-size: 1.5em;
+  color: white;
+}
+.unit{
+  font-size: 0.75em;
+  font-style: normal;
+  color: #7936e1;
+}
+footer{
+  padding: 25px 0;
+  margin:0px;
+  font-size: .75em;
+}
+.socials i, footer a{
+  font-size: 1.25em;
+  margin: 15px 3px;
+  color: #888888;
+  text-decoration: none;
+}
+.socials i:hover, a:hover{
+  color: #dddddd;
+}
+
+.copyright{
+  color: #888888;
+}
+
+/* responsiveness */
+@media screen and (max-width: 1100px) {
+  .welcome{
+    font-size: 1.25em;
+    width: 35%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .welcome{
+    width: 40%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .welcome{
+    width: 45%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .h1{
+    display: block;
+    font-size: 1.3em;
+    padding: 0px 0px 25px;
+  }
+  .welcome{
+    width: 50%;
+    margin: 25px auto 0px;
+  }
+  nav li{
+    display: none;
+  }
+@media screen and (max-width: 600px) {
+  .welcome{
+    width: 60%;
+  }
+@media screen and (max-width: 500px) {
+  .welcome{
+    width: 70%;
+
+  }
+}
