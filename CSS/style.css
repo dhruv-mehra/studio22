@@ -149,6 +149,9 @@ footer{
   nav li{
     display: none;
   }
+  body{
+    border: 10px solid #75ffeb;
+  }
 @media screen and (max-width: 600px) {
   .welcome{
     width: 60%;
@@ -156,6 +159,15 @@ footer{
 @media screen and (max-width: 500px) {
   .welcome{
     width: 70%;
-
+  }
+}
+@media screen and (max-width: 415px) {
+  .welcome{
+    font-size:.8em;
+  }
+}
+@media screen and (max-width: 350px) {
+  .h1{
+    font-size: 1em;
   }
 }
