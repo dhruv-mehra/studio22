@@ -12,16 +12,32 @@ header{
   border-bottom: 20px solid #75ffeb;
 }
 /*//////////////////////body////////////////////////*/
-.title, .credits, .poster, .logline, .specs, .intro, .statement, .links, .bts, .warning, .final{
+.title, .credits, .poster, .logline, .specs, .statement, .links, .bts, .warning, .final{
   padding: 25px 20%;
 }
-.title, .credits, .poster, .intro, .statement, .bts{
+.title, .credits, .poster, .crew, .statement, .bts{
   background-color: white;
   color: #222222;
 }
-.logline, .specs, .links{
+.logline, .specs{
   background-color: #222222;
   color: white;
+}
+.links{
+  background-color: #7936e1;
+  color: white;
+}
+.tab{
+  padding-left: 30px;
+}
+.links > p, .bts > p, .crew > p, .fullcredits > p{
+  font-size: 1.5em;
+  font-family: lores-12-narrow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #7936e1;
+  padding:0px 0px 50px;
 }
 /*//////////////////////title////////////////////////*/
 h3{
@@ -64,7 +80,6 @@ p{
   font-size: 1.5em;
   font-style: italic;
   padding:75px 25% 0px;
-
 }
 /*//////////////////////specs////////////////////////*/
 .divider{
@@ -82,36 +97,80 @@ p{
   color: #75ffeb;
   padding: 0px 10px;
 }
-
 ol{
   margin: 0;
   padding: 0;
 }
-
 /*//////////////////////warning////////////////////////*/
 .warning{
   padding: 0px 0px 75px;
   font-size: 1em;
   font-style: italic;
 }
-/*//////////////////////statment////////////////////////*/
-.intro{
-  padding: 100px 20% 0px;
+/*//////////////////////Meet the Crew////////////////////////*/
+.crew{
+  padding: 50px 50px;
 }
-.statement, .links{
+.profs{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.prof{
+  margin: 0px 25px;
+  width: 33%;
+}
+.profname{
+  font-size: 1.25em;
+  font-family: nobel, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  margin: 0px;
+  padding: 15px;
+}
+.role{
+  font-size: 1em;
+  font-style: italic;
+  color: #999999;
+  padding: 0px;
+  margin: 5px;
+}
+.bio{
+  text-align: justify;
+}
+.prof img{
+  width: 80%;
+  border: 8px solid #75ffeb;
+  border-radius: 50%;
+}
+
+/*//////////////////////credits////////////////////////*/
+.fullcredits > p{
+  margin: 50px 0px;
+  padding: 0;
+  color: #75ffeb;
+}
+.fullcreds{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  text-align: left;
+  margin: 0px 50px 50px;
+}
+.fullcreds div{
+  margin: 0px 15px;
+  width: 33%;
+}
+.fullcreds p{
+  padding: 0px;
+}
+/*//////////////////////links////////////////////////*/
+.links{
   text-align:left;
 }
-.intro > p, .links > p, .bts > p{
-  font-size: 1.5em;
-  font-family: lores-12-narrow, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  text-transform: uppercase;
-  color: #7936e1;
-  padding:0px 0px 50px;
-}
 .links > p{
-  color: #75ffeb;
+  color: white;
 }
 .links{
   text-align: center;
@@ -119,7 +178,7 @@ ol{
 }
 .links a{
   text-decoration: none;
-  color: #7936e1;
+  color: #75ffeb;
   padding: 25px 15px;
   font-size:1.25em;
   font-family: lores-12-narrow, sans-serif;
@@ -133,7 +192,7 @@ ol{
 /*//////////////////////bts////////////////////////*/
 .bts{
   text-align: center;
-  padding: 100px 5px;
+  padding: 50px 5px;
 }
 /*//////////////////////film////////////////////////*/
 .film{
