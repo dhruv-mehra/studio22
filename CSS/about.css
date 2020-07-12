@@ -1,0 +1,76 @@
+h3{
+  text-align: center;
+}
+#welcome{
+  text-align: center;
+  font-style: italic;
+  padding: 25px 150px;
+  font-size: 1.25em;
+}
+h4{
+  font-size: 1.25em;
+  text-transform: uppercase;
+}
+.about{
+  padding:0px 15%;
+  text-align: left;
+  background-color: white;
+  color:#222222;
+}
+.org{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.org img{
+  height: 100%;
+  width: 100px;
+  padding: 25px 25px 0px 0px;
+}
+.club > p:first-child{
+  font-size: 1.25em;
+}
+.boards, .organizations{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 25px 0px 50px;
+}
+.boards p{
+  padding: 0px;
+  font-style: italic;
+}
+.board{
+  margin: 0px 75px 0px 0px;
+}
+.board > p:first-child{
+  font-family: lores-12-narrow, sans-serif;
+  font-size: 1.25em;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #7936e1;
+  padding-bottom: 10px;
+}
+.fundraiser > p{
+  text-align: center;
+  font-size: 1.25em;
+  font-style: italic;
+}
+.fundraiser{
+  background-color: #222222;
+  color:white;
+  border: 10px solid #75ffeb;
+  padding: 50px;
+}
+.organization{
+  padding: 0px 25px 0px 0px;
+}
+.organization > p:first-child{
+  font-weight: 800;
+  font-style: italic;
+  font-size: 1.15em;
+}
+footer{
+  background-color: #222222;
+}

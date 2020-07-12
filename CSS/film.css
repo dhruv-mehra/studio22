@@ -272,6 +272,7 @@ footer{
     display: none;
   }
 
+
 }
 @media screen and (max-width: 700px) {
   .title, .credits, .poster, .logline, .specs, .intro, .statement, .links, .bts, .warning, .final, .film{
@@ -309,7 +310,6 @@ footer{
   .links > p{
     padding: 0px;
   }
-
   .links a{
     display: block;
     padding: 10px;
