@@ -11,6 +11,9 @@ header{
   border-top: 20px solid #75ffeb;
   border-bottom: 20px solid #75ffeb;
 }
+nav{
+  margin-top: 15px;
+}
 /*//////////////////////body////////////////////////*/
 .title, .credits, .poster, .logline, .specs, .statement, .links, .bts, .warning, .final{
   padding: 25px 20%;
