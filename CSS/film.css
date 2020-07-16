@@ -18,16 +18,12 @@ nav{
 .title, .credits, .poster, .logline, .specs, .statement, .links, .bts, .warning, .final{
   padding: 25px 20%;
 }
-.title, .credits, .poster, .crew, .statement, .bts{
+.title, .poster, .crew, .statement, .bts, .links, .credits{
   background-color: white;
   color: #222222;
 }
 .logline, .specs{
   background-color: #222222;
-  color: white;
-}
-.links{
-  background-color: #7936e1;
   color: white;
 }
 .tab{
@@ -156,6 +152,7 @@ ol{
 .fullcreds{
   display: flex;
   flex-direction: row;
+  flex-wrap:wrap;
   align-content: center;
   justify-content: center;
   text-align: left;
@@ -163,7 +160,7 @@ ol{
 }
 .fullcreds div{
   margin: 0px 15px;
-  width: 33%;
+  width: 30%;
 }
 .fullcreds p{
   padding: 0px;
@@ -173,7 +170,7 @@ ol{
   text-align:left;
 }
 .links > p{
-  color: white;
+  color: #7936e1;
 }
 .links{
   text-align: center;
@@ -181,7 +178,7 @@ ol{
 }
 .links a{
   text-decoration: none;
-  color: #75ffeb;
+  color: #222222;
   padding: 25px 15px;
   font-size:1.25em;
   font-family: lores-12-narrow, sans-serif;
@@ -190,7 +187,7 @@ ol{
   text-transform: uppercase;
 }
 .links a:hover{
-  color: white;
+  color: #75ffeb;
 }
 /*//////////////////////bts////////////////////////*/
 .bts{
@@ -219,31 +216,27 @@ ol{
 .film iframe{
   border: 10px solid #75ffeb;
 }
-.countdown{
-  text-align: center;
-  width: 30%;
-  border: 3px solid #7936e1;
-  padding: 20px;
-  margin: 20px auto 0px;
-  color: #7936e1;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size:2em;
-}
+/*//////////////////////nextfilm////////////////////////*/
+
 .nextFilm{
-  padding: 100px 0px 0px;
+  padding: 150px;
+  background-color: #7936e1;
 }
 .nextFilm a{
   text-decoration: none;
+  font-size: 2em;
+  font-family: lores-12-narrow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
   color: white;
-  font-size: 1.25em;
+  padding: 25px 75px;
+  background-color: #222222;
+  border: 8px solid #75ffeb;
 }
 .nextFilm a:hover{
   color: #75ffeb;
 }
-
 /*//////////////////////footer////////////////////////*/
 .foot{
   position: relative;
@@ -252,8 +245,8 @@ ol{
   transform: translate(0, 0);
 }
 footer{
-  background-color:white;
-  padding: 50px 0px 25px;
+  background-color:#222222;
+  padding: 100px 0px 50px;
 }
 
 /*//////////////////////Responsiveness////////////////////////*/
@@ -274,8 +267,17 @@ footer{
   .divider{
     display: none;
   }
-
-
+  .profs{
+    flex-wrap: wrap;
+  }
+  .prof{
+    width: 75%;
+    margin: 25px 0px;
+  }
+  .fullcreds div{
+    margin: 0px 15px;
+    width: calc(50%-15px);
+  }
 }
 @media screen and (max-width: 700px) {
   .title, .credits, .poster, .logline, .specs, .intro, .statement, .links, .bts, .warning, .final, .film{
@@ -297,10 +299,28 @@ footer{
   .film iframe{
     border: none;
   }
+  .nextFilm{
+    padding: 100px;
+    background-color: #7936e1;
+  }
+  .nextFilm a{
+    font-size: 1.5em;
+    padding: 25px 25px;
+  }
+  .fullcreds div{
+    width: 100%;
+  }
 
 @media screen and (max-width: 500px) {
-  .title, .credits, .poster, .logline, .specs, .intro, .statement, .links, .warning, .final, .film{
+  .title, .credits, .poster, .logline, .specs, .intro, .statement, .links, .warning, .final, .film, .crew{
     padding: 25px 5%;
+  }
+  .fullcreds{
+    margin: 0px 5%;
+  }
+  .profs{
+    margin: 0px;
+    padding: inherit 0px;
   }
   nav li{
     display: block;
@@ -318,3 +338,4 @@ footer{
     padding: 10px;
   }
 }
+@media screen and (max-width: 415px) {

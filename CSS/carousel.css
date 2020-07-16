@@ -154,14 +154,15 @@
       right: 15px;
   }
 }
-@media screen and (max-width: 700px) {
-
-}
 @media (max-width: 700px) {
     .carousel {
         display: block;
     }
     .close{
       display: none;
+    }
+    .slideshow-container img{
+      width: 100%;
+      height: auto;
     }
 }
