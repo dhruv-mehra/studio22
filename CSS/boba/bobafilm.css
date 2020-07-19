@@ -1,0 +1,341 @@
+body {
+  text-align: center;
+  font-family: nobel, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  border: 0px;
+}
+/*//////////////////////header////////////////////////*/
+header{
+  padding:0px 0px 50px;
+  border-top: 20px solid #F5B7B1;
+  border-bottom: 20px solid #F5B7B1;
+}
+nav{
+  margin-top: 15px;
+}
+/*//////////////////////body////////////////////////*/
+.title, .credits, .poster, .logline, .specs, .statement, .links, .bts, .warning, .final{
+  padding: 25px 20%;
+}
+.title, .poster, .crew, .statement, .bts, .links, .credits{
+  background-color: white;
+  color: #222222;
+}
+.logline, .specs{
+  background-color: #222222;
+  color: white;
+}
+.tab{
+  padding-left: 30px;
+}
+.links > p, .bts > p, .crew > p, .fullcredits > p{
+  font-size: 1.5em;
+  font-family: lores-12-narrow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #D7BDE2;
+  padding:0px 0px 50px;
+}
+/*//////////////////////title////////////////////////*/
+h3{
+  font-size: 4em;
+  padding: 75px 0px 0px;
+  margin: 0;
+  font-style: italic;
+}
+p{
+  margin: 0px;
+  padding: 15px 0px;
+}
+.title > p{
+  font-size: 1em;
+  font-style: italic;
+  color: #999999;
+}
+/*//////////////////////credits////////////////////////*/
+.credits{
+  padding:25px 0px 50px;
+}
+.credits p{
+  font-size: 1em;
+  margin: 0px;
+  padding: 5px;
+}
+/*//////////////////////poster////////////////////////*/
+.poster{
+  font-size: .75em;
+  font-style: italic;
+}
+.poster{
+  padding: 25px 0px 50px;
+}
+.poster img{
+  height: 80vh;
+}
+/*//////////////////////logline////////////////////////*/
+.logline{
+  font-size: 1.5em;
+  font-style: italic;
+  padding:75px 25% 0px;
+}
+/*//////////////////////specs////////////////////////*/
+.divider{
+  color: white;
+  font-size: 1.5em;
+  display: inline;
+}
+.specs li{
+  display: inline;
+  font-size: 1.25em;
+  font-family: lores-12-narrow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #F5B7B1;
+  padding: 0px 10px;
+}
+ol{
+  margin: 0;
+  padding: 0;
+}
+/*//////////////////////warning////////////////////////*/
+.warning{
+  padding: 0px 0px 75px;
+  font-size: 1em;
+  font-style: italic;
+}
+/*//////////////////////Meet the Crew////////////////////////*/
+.crew{
+  padding: 50px 50px;
+}
+.profs{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.prof{
+  margin: 0px 25px;
+  width: 33%;
+}
+.profname{
+  font-size: 1.25em;
+  font-family: nobel, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  margin: 0px;
+  padding: 15px;
+}
+.role{
+  font-size: 1em;
+  font-style: italic;
+  color: #999999;
+  padding: 0px;
+  margin: 5px;
+}
+.bio{
+  text-align: justify;
+}
+.prof img{
+  width: 80%;
+  border: 8px solid #F5B7B1;
+  border-radius: 50%;
+}
+
+/*//////////////////////credits////////////////////////*/
+.fullcredits > p{
+  margin: 50px 0px;
+  padding: 0;
+  color: #F5B7B1;
+}
+.fullcreds{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  align-content: center;
+  justify-content: center;
+  text-align: left;
+  margin: 0px 50px 50px;
+}
+.fullcreds div{
+  margin: 0px 15px;
+  width: 30%;
+}
+.fullcreds p{
+  padding: 0px;
+}
+/*//////////////////////links////////////////////////*/
+.links{
+  text-align:left;
+}
+.links > p{
+  color: #D7BDE2;
+}
+.links{
+  text-align: center;
+  padding: 50px;
+}
+.links a{
+  text-decoration: none;
+  color: #222222;
+  padding: 25px 15px;
+  font-size:1.25em;
+  font-family: lores-12-narrow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.links a:hover{
+  color: #F5B7B1;
+}
+/*//////////////////////bts////////////////////////*/
+.bts{
+  text-align: center;
+  padding: 50px 5px;
+}
+/*//////////////////////film////////////////////////*/
+.film{
+  padding: 75px 10%;
+}
+.film img{
+  height: 75px;
+}
+.presents{
+  padding: 0px 0px 25px;
+  font-size: .75em;
+  font-style: italic;
+}
+#title{
+  font-family: nobel, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 3em;
+  padding: 0px 0px 50px;
+}
+.film iframe{
+  border: 10px solid #F5B7B1;
+}
+/*//////////////////////nextfilm////////////////////////*/
+
+.nextFilm{
+  padding: 150px;
+  background-color: #D7BDE2;
+}
+.nextFilm a{
+  text-decoration: none;
+  font-size: 2em;
+  font-family: lores-12-narrow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  color: white;
+  padding: 25px 75px;
+  background-color: #222222;
+  border: 8px solid #F5B7B1;
+}
+.nextFilm a:hover{
+  color: #F5B7B1;
+}
+/*//////////////////////footer////////////////////////*/
+.foot{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  transform: translate(0, 0);
+}
+footer{
+  background-color:#222222;
+  padding: 100px 0px 50px;
+}
+
+/*//////////////////////Responsiveness////////////////////////*/
+@media screen and (max-width: 900px) {
+  .title, .credits, .poster, .logline, .specs, .intro, .statement, .links, .warning, .final{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .bts{
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .specs li{
+    display: block;
+    font-size: 1.5em;
+    padding: 5px 0px;
+  }
+  .divider{
+    display: none;
+  }
+  .profs{
+    flex-wrap: wrap;
+  }
+  .prof{
+    width: 75%;
+    margin: 25px 0px;
+  }
+  .fullcreds div{
+    margin: 0px 15px;
+    width: calc(50%-15px);
+  }
+}
+@media screen and (max-width: 700px) {
+  .title, .credits, .poster, .logline, .specs, .intro, .statement, .links, .bts, .warning, .final, .film{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .h1{
+    display: block;
+    font-size: 1.3em;
+    padding: 0px 0px 25px;
+  }
+  .poster, .bts{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .poster img{
+    height: 100vh;
+  }
+  .film iframe{
+    border: none;
+  }
+  .nextFilm{
+    padding: 100px;
+    background-color: #D7BDE2;
+  }
+  .nextFilm a{
+    font-size: 1.5em;
+    padding: 25px 25px;
+  }
+  .fullcreds div{
+    width: 100%;
+  }
+
+@media screen and (max-width: 500px) {
+  .title, .credits, .poster, .logline, .specs, .intro, .statement, .links, .warning, .final, .film, .crew{
+    padding: 25px 5%;
+  }
+  .fullcreds{
+    margin: 0px 5%;
+  }
+  .profs{
+    margin: 0px;
+    padding: inherit 0px;
+  }
+  nav li{
+    display: block;
+    padding: 10px;
+  }
+  .poster img{
+    width: 100%;
+    height: auto;
+  }
+  .links > p{
+    padding: 0px;
+  }
+  .links a{
+    display: block;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 415px) {

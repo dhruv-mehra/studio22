@@ -52,6 +52,12 @@ h4{
   color: #7936e1;
   padding-bottom: 10px;
 }
+.nuwfa > p:first-child{
+  color: #FC2954;
+}
+.multi > p:first-child{
+  color: #197693;
+}
 .fundraiser > p{
   text-align: center;
   font-size: 1.25em;
