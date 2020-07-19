@@ -38,10 +38,12 @@ h4{
 }
 .boards p{
   padding: 0px;
-  font-style: italic;
+  font-style: normal;
+  text-align: center;
 }
 .board{
   margin: 0px 75px 0px 0px;
+  width: 50%;
 }
 .board > p:first-child{
   font-family: lores-12-narrow, sans-serif;
@@ -51,6 +53,10 @@ h4{
   text-transform: uppercase;
   color: #7936e1;
   padding-bottom: 10px;
+}
+.bold{
+  font-weight: 400;
+  margin: 3px 0px 0px 0px;
 }
 .nuwfa > p:first-child{
   color: #FC2954;
@@ -71,11 +77,29 @@ h4{
 }
 .organization{
   padding: 0px 25px 0px 0px;
+  text-align: center;
 }
 .organization > p:first-child{
   font-weight: 800;
   font-style: italic;
   font-size: 1.15em;
+  text-align: center;
+}
+.organization a{
+  color: #75ffeb
+}
+.organization a:hover{
+  color: white;
+}
+.organization img{
+  width: 100%;
+  align-content: center;
+}
+#YEPP{
+  width: 35%;
+}
+.PNAP{
+  padding-top: 78px;
 }
 footer{
   background-color: #222222;

@@ -1,0 +1,334 @@
+@font-face {
+	font-family: libre_franklin;
+	src: local(libre_franklin), url('DesignAssets/fonts/libre_franklin/librefranklin-black.ttf') format('opentype');
+}
+@font-face {
+	font-family: Merriweather;
+	src: local(merriweather), url('DesignAssets/fonts/merriweather/merriweather-regular.ttf') format('opentype');
+	font-weight:normal;
+	}
+@font-face {
+	font-family: Merriweather;
+	src: local(merriweatherbold), url('DesignAssets/fonts/merriweather/merriweather-bold.ttf') format('opentype');
+	font-weight: bold;
+	}
+@font-face {
+	font-family: Merriweather;
+	src: local(merriweatherlight), url('DesignAssets/fonts/merriweather/merriweather-light.ttf') format('opentype');
+	font-weight: lighter;
+}
+body {
+	font-family: Merriweather;
+	margin: 0;
+	padding: 0;
+	background: #D2D2BB;
+	color: #000;
+}
+#logo {
+	width: 250px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+#container{
+	position:absolute;
+	display:block;
+	width:780px;
+	left:50%;
+	margin-left:-390px;
+	top:0;
+	background-color:#fff;
+	padding:0;
+	height: 100%;
+	}
+.menu{
+	position:absolute;
+	float: left;
+	top:300px;
+	display:block;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 5%;
+	font-family: Libre_Franklin;
+	border-top: 1px solid #A59161;
+	width: 165px;
+	z-index: 3;
+}
+.menu a:link, .menu a:visited {
+	text-decoration: none;
+	letter-spacing: 1px;
+	line-height:1em;
+	color:#A59161;
+	font-size:.75em;
+	text-align:left;
+}
+
+.menu a:hover {
+	color:#000;
+}
+.menu .menuLine{
+	display: block;
+	width:100%;
+	border-bottom: 1px solid #A59161;
+	padding:10px;
+}
+.menu .on{
+	color: #000 !important;
+}
+
+.content{
+	display:block;
+	margin:0;
+	z-index: 1;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: #fff;
+	padding-bottom: 5%;
+}
+.content p, .content ul {
+	font-size: .75em;
+	line-height: 1.5em;
+	font-weight: normal;
+}
+.content h1{
+font-size:1.35em;
+color:#444;
+margin-top: 5%;
+}
+.content h2{
+font-weight: bold;
+font-size:.85em;
+color:#000;
+}
+.content .dates{
+	font-family: Merriweather;
+	font-size: 50%;
+}
+.content .dates a:link, .content .dates a:visited{
+	color: #000;
+	text-decoration:none;
+	border: none;
+}
+.content .dates a:hover, .content .dates a:active{
+	color: #000;
+	border-bottom: 1px solid #000;
+	background-color: #fff;
+}
+.content h3{
+font-family: libre_franklin;
+font-size:1em;
+color:#444;
+font-weight: normal;
+}
+.content h1, .content p, .content h2, .content h3, .content form, .content h4, .content li, .content ul{
+margin-left:250px;
+letter-spacing: 1px;
+margin-right: 10px;
+}
+.content li{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.content blockquote{
+	display: block;
+	font-style: italic;
+	margin-left:250px;
+	margin-right: 10px;
+	padding: 20px;
+	background-color: #eee;
+	font-size: .9em;
+	line-height: 1.5em;
+}
+.content a:link, .content a:visited{
+	color: #A59161;
+	text-decoration: none;
+	/*background-color: #ffa;*/
+	/*border-bottom: #A59161 solid 1px;*/
+}
+.content a:hover{
+	/*background-color: #09f;*/
+	color: #000;
+	border: 0;
+	border-bottom: #000 solid 1px;
+}
+.content video, .content iframe{
+	display:block;
+	/*margin-left:250px;*/
+	height:300px;
+	width:450px;
+}
+.imglink a:link{
+	border: 0;
+	background-color: #fff;
+}
+#blog{
+	width:450px;
+    max-height:100%;
+}
+img {
+	border: 0 ;
+}
+.boldTitle{
+	font-family: libre_franklin;
+	font-weight: normal;
+}
+.footer{
+	margin-bottom: 50px;
+}
+.quote{
+	font-size: .75em;
+	line-height: 1em;
+	font-style: italic;
+}
+.slideshow{
+	position:relative;
+	left: 5%;
+}
+/*Project specific button styles*/
+#projectMenuLeft{
+			display: block;
+			position: absolute;
+			left: 0;
+			padding-left:280px;
+			width: 500px;
+			background-color: #fff;
+			z-index: 2;
+			}
+			#projectMenuRight{
+			display: block;
+			position: absolute;
+			right: 50px;
+			z-index: 3;
+			}
+			.projects {
+				display: block;
+				width: 159px;
+				height: 159px;
+				margin-bottom: 50px;
+			}
+			.projects a:link, .projects a:visited {
+				display: block;
+				padding-top: 90px;
+				line-height: 159px;
+				text-align: center;
+				font-family: libre_franklin;
+				font-weight: normal;
+				font-size: 70%;
+				color:#A59161;
+				border: none;
+				letter-spacing: 1px;
+			}
+			.projects a:hover {
+				color: #000;;
+			}
+			.writing {
+				background-image: url(DesignAssets/buttons/WritingButtons.png);
+			}
+			.letters {
+				background-image: url(DesignAssets/buttons/lettersFutureButton.png);
+			}
+			.freedom {
+				background-image: url(DesignAssets/buttons/FreeDreamsButton.png);
+			}
+			.longterm {
+				background-image: url(DesignAssets/buttons/LongTermButton.png);
+			}
+			.itsnow {
+				background-image: url(DesignAssets/buttons/ItsNowButton.png);
+			}
+			.spoken {
+				background-image: url(DesignAssets/buttons/spokenWordButton.png);
+			}
+			.time {
+				background-image: url(DesignAssets/buttons/TimeButton.png);
+			}
+			.representations {
+				background-image: url(DesignAssets/buttons/RepresentationsButton.png);
+			}
+			.bookmarks {
+				background-image: url(DesignAssets/buttons/bookmarksButton.png);
+			}
+			.oneday {
+				background-image: url(DesignAssets/buttons/oneDayButton.png);
+			}
+			.rage {
+				background-image: url(DesignAssets/buttons/RageButton.png);
+			}
+			.moments {
+				background-image: url(DesignAssets/buttons/InsigMoments.png);
+			}
+#featuredPic{
+	border: 1px solid #000;
+	text-decoration: none;
+}
+#facultyTable{
+margin-left:250px;
+letter-spacing: 1px;
+margin-right: 10px;
+width:400px
+}
+#facultyTable p{
+	padding: 0 !important;
+	margin:0 !important;
+}
+#facultyTable td{
+	vertical-align:top;
+	width:200px;
+}
+/*Book buttons for writing.html*/
+.booklink {
+	margin-left:250px;
+}
+.booklink img{
+	height: 200px;
+	border: 1px solid #333;
+	margin-right: 5px;
+	margin-bottom: 20px;
+}
+.booklink a:link, .booklink a:hover{
+	border: 0;
+	background-color: #fff;
+}
+/*Mailchimp Form*/
+#mc-embedded-subscribe-form{
+	margin: 0;
+	display: inline;
+}
+#contact-form{
+	margin: 0;
+	display: inline;
+}
+.g-recaptcha{
+	margin-left: 250px;
+}
+.highlight{
+    color:red;
+}
+/*lightbox styles*/
+#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ width: 49%; height: 100%; background-image: url('data:image/gif;base64,AAAA'); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url('lightbox/images/prevlabel.gif') left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url('lightbox/images/nextlabel.gif') right 15% no-repeat; }
+
+#imageDataContainer{ font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	; }
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }
