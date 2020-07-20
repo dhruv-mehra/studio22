@@ -34,5 +34,13 @@ p{
 
 .log{
   font-style: italic;
-  padding: 25px 20% 100px;
+  padding: 25px 20%;
+}
+.statement p{
+  text-align: left;
+  padding: 5px;
+}
+.right{
+  float: right;
+  margin: 0px 0px 100px;
 }
