@@ -198,9 +198,6 @@ ol{
 .film{
   padding: 75px 10%;
 }
-.film img{
-  height: 75px;
-}
 .presents{
   padding: 0px 0px 25px;
   font-size: .75em;
@@ -213,8 +210,32 @@ ol{
   font-size: 3em;
   padding: 0px 0px 50px;
 }
+#releasetitle{
+  font-family: nobel, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 3em;
+  padding: 0px;
+}
 .film iframe{
   border: 10px solid #75ffeb;
+}
+.stills{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow: scroll;
+}
+.stills img{
+  width: 90%;
+  padding: 0px 10px;
+}
+.presents img{
+  height: 75px
+}
+#onlystills{
+  padding: 25px;
+  margin: 0px
 }
 /*//////////////////////nextfilm////////////////////////*/
 
