@@ -10,7 +10,6 @@ body{
   font-style: normal;
   margin: 0;
   padding: auto;
-  height: 95vh;
   border: 20px solid #75ffeb;
   background-color: #222222;
   color: white;
@@ -108,6 +107,13 @@ nav a{
   font-style: normal;
   color: #7936e1;
 }
+.film{
+  padding: 75px 20%;
+}
+.film iframe{
+  border: 5px solid #75ffeb;
+}
+
 footer{
   padding: 25px 0;
   margin:0px;

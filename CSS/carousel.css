@@ -1,6 +1,9 @@
 .carousel{
   display: none;
 }
+.releasecarousel{
+  display: block;
+}
 
 /* Slideshow container */
 .slideshow-container {
