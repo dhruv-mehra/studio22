@@ -15,14 +15,14 @@ nav{
   margin-top: 15px;
 }
 /*//////////////////////body////////////////////////*/
-.title, .credits, .poster, .logline, .specs, .statement, .links, .bts, .warning, .final{
+.title, .credits, .poster, .logline, .potatologline, .specs, .statement, .links, .bts, .warning, .final{
   padding: 25px 20%;
 }
 .title, .poster, .crew, .statement, .bts, .links, .credits{
   background-color: white;
   color: #222222;
 }
-.logline, .specs{
+.logline, .specs, .potatologline{
   background-color: #222222;
   color: white;
 }
@@ -75,11 +75,17 @@ p{
   height: 80vh;
 }
 /*//////////////////////logline////////////////////////*/
+.potatologline{
+  font-size: 1.5em;
+  font-style: italic;
+  padding:75px 25%;
+}
 .logline{
   font-size: 1.5em;
   font-style: italic;
   padding:75px 25% 0px;
 }
+
 /*//////////////////////specs////////////////////////*/
 .divider{
   color: white;
@@ -272,7 +278,7 @@ footer{
 
 /*//////////////////////Responsiveness////////////////////////*/
 @media screen and (max-width: 900px) {
-  .title, .credits, .poster, .logline, .specs, .intro, .statement, .links, .warning, .final{
+  .title, .credits, .poster, .logline, .specs, .intro, .statement, .links, .warning, .final, .potatologline{
     padding-left: 10%;
     padding-right: 10%;
   }
@@ -301,7 +307,7 @@ footer{
   }
 }
 @media screen and (max-width: 700px) {
-  .title, .credits, .poster, .logline, .specs, .intro, .statement, .links, .bts, .warning, .final, .film{
+  .title, .credits, .poster, .logline, .potatologline, .specs, .intro, .statement, .links, .bts, .warning, .final, .film{
     padding-left: 5%;
     padding-right: 5%;
   }
@@ -333,7 +339,7 @@ footer{
   }
 
 @media screen and (max-width: 500px) {
-  .title, .credits, .poster, .logline, .specs, .intro, .statement, .links, .warning, .final, .film, .crew{
+  .title, .credits, .poster, .logline, .potatologline, .specs, .intro, .statement, .links, .warning, .final, .film, .crew{
     padding: 25px 5%;
   }
   .fullcreds{
