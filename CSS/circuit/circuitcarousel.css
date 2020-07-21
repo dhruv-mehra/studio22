@@ -1,0 +1,173 @@
+#275c91
+#275c91
+#4179b0
+
+
+.carousel{
+  display: none;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 60%;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container img{
+  height: 60vh;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.next, .prev{
+    cursor: pointer;
+    position: absolute;
+    font-size: 2em;
+    color: #cccccc;
+    padding: 0px 16px;
+    top: 40%
+}
+.next:hover, .prev:hover, .close:hover {
+    color: #4179b0;
+}
+.prev {
+    left: -50px;
+}
+.next {
+    right: -50px;
+}
+
+/* Close */
+.close {
+    position: absolute;
+    font-size: 2.5em;
+    color: #cccccc;
+    background: none;
+    top: 5px;
+    right: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Caption text */
+.text {
+  color: #275c91;
+  font-size: 20px;
+  font-style: italic;
+  padding: 20px 12px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 15px 6px 0px;
+  background-color: #cccccc;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #275c91;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .8}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .8}
+  to {opacity: 1}
+}
+
+
+/* .featured_image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.next, .prev, .close {
+    position: absolute;
+    font-size: 2.5em;
+    color: white;
+    border-width: 0px;
+    padding-bottom: 5px;
+}
+.close {
+    background: none;
+    top: 0vh;
+    line-height: 1em;
+    right: 0vh;
+}
+.next, .prev {
+    background: rgba(255,255,255,0.2);
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;
+}
+.next:hover, .prev:hover, .close:hover {
+    background: rgba(255,255,255,0.4);
+}
+.prev {
+    top: 45vh;
+    left: 2vw;
+}
+.next {
+    top: 45vh;
+    right: 2vw;
+}
+.preview {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.preview.active {
+  position:relative;
+  display: flex;
+  background: rgba(255, 255, 255, 1);
+} */
+
+@media screen and (max-width: 900px) {
+  .slideshow-container {
+    width: 100%;
+  }
+  .prev {
+      left: 15px;
+  }
+  .next {
+      right: 15px;
+  }
+}
+@media (max-width: 700px) {
+    .carousel {
+        display: block;
+    }
+    .close{
+      display: none;
+    }
+    .slideshow-container img{
+      width: 100%;
+      height: auto;
+    }
+}
