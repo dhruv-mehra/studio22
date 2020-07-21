@@ -18,6 +18,10 @@ body{
 .heading{
   display: inline;
 }
+header a{
+  text-decoration: none;
+  color: inherit;
+}
 .h0, .h22{
   font-size: 3em;
   font-family: nobel, sans-serif;
@@ -41,6 +45,36 @@ h1{
 h2{
   font-size: 2em;
   display: inline;
+}
+.thanks{
+  font-family: lores-12-narrow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: #7936e1;
+  padding: 25px;
+  animation-name: flash;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes flash {
+  0%   {color:#7936e1}
+  33%  {color:white}
+  66%  {color:#75ffeb}
+  100% {color:#7936e1}
+}
+.congrats{
+  border: 8px solid #7936e1;
+  background-color:#75ffeb;
+  color: #222222;
+  margin: 0px 250px;
+}
+h4{
+  font-style: italic;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #7936e1;
 }
 .logo img{
   width: 75px;
@@ -69,34 +103,31 @@ nav a{
   color: #888888;
 }
 .welcome{
-  font-family: nobel, sans-serif;
-  font-weight: 400;
-  font-style: italic;
-  font-size: 1.5em;
-  text-align: center;
-  width: 30%;
-  border: 3px solid #7936e1;
-  padding: 25px;
-  margin: 50px auto 0px;
-  color: #7936e1;
 }
-.welcome > p{
+.countdown > p{
   color: #7936e1;
   margin: 0px 0px 20px;
+  font-style: italic;
 }
 .countdown{
-  display: flex;
-  flex-direction: row;
+  text-align: center;
   align-items: center;
   justify-content: center;
+  width: 30%;
+  padding: 25px;
+  margin: 50px auto 0px;
+  border: 3px solid #7936e1;
   font-family: lores-12-narrow, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size:1.25em;
-  margin: 20px;
+  font-size:1.5em;
 }
 .count p{
   margin: 0px 20px;
+}
+.counter{
+  display: flex;
+  flex-direction: row;
 }
 .number{
   font-size: 1.5em;
@@ -112,6 +143,50 @@ nav a{
 }
 .film iframe{
   border: 5px solid #75ffeb;
+}
+.braff{
+  padding: 50px 20%;
+  font-size: 2em;
+  font-style: italic;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #7936e1;
+}
+.braff iframe{
+  border: 5px solid #7936e1;
+}
+.zach{
+  font-size: 0.75em;
+  font-style: italic;
+  text-transform: capitalize;
+  font-weight: 100;
+  color: white;
+}
+#trailer{
+  font-size: 1.5em;
+  font-style: italic;
+  text-transform: capitalize;
+  font-weight: 100;
+  color: white;
+}
+
+.nextFilm{
+  padding: 150px 0px 0px;
+}
+.nextFilm a{
+  text-decoration: none;
+  font-size: 2em;
+  font-family: lores-12-narrow, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  color: white;
+  padding: 25px 75px;
+  background-color: #222222;
+  border: 8px solid #75ffeb;
+}
+.nextFilm a:hover{
+  color: #75ffeb;
 }
 
 footer{
@@ -170,6 +245,10 @@ ol{
   text-decoration: none;
   font-style: normal;
   padding: 0px;
+}
+.webdesign{
+  color: #888888;
+  padding: 20px 0px 0px;
 }
 
 /* responsiveness */

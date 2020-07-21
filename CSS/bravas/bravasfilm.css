@@ -19,6 +19,10 @@ header{
 nav{
   margin-top: 15px;
 }
+header a{
+  text-decoration: none;
+  color: inherit;
+}
 /*//////////////////////body////////////////////////*/
 .title, .credits, .poster, .logline, .specs, .statement, .links, .bts, .warning, .final{
   padding: 25px 20%;
