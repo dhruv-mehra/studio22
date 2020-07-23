@@ -282,9 +282,17 @@ header a{
 }
 /*//////////////////////Responsiveness////////////////////////*/
 @media screen and (max-width: 900px) {
-  .title, .credits, .poster, .logline, .specs, .intro, .statement, .links, .warning, .final, .potatologline{
+  .title, .credits, .logline, .specs, .intro, .statement, .links, .warning, .final, .potatologline{
     padding-left: 10%;
     padding-right: 10%;
+  }
+  .poster{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .poster img{
+    width: 100%;
+    height: 100%;
   }
   .bts{
     padding-left: 0%;
@@ -311,7 +319,7 @@ header a{
   }
 }
 @media screen and (max-width: 700px) {
-  .title, .credits, .poster, .logline, .potatologline, .specs, .intro, .statement, .links, .bts, .warning, .final, .film{
+  .title, .credits, .logline, .potatologline, .specs, .intro, .statement, .links, .bts, .warning, .final, .film{
     padding-left: 5%;
     padding-right: 5%;
   }
@@ -320,12 +328,9 @@ header a{
     font-size: 1.3em;
     padding: 0px 0px 25px;
   }
-  .poster, .bts{
+  .bts{
     padding-left: 0;
     padding-right: 0;
-  }
-  .poster img{
-    height: 100vh;
   }
   .film iframe{
     border: none;
@@ -341,6 +346,10 @@ header a{
   .fullcreds div{
     width: 100%;
   }
+  nav li{
+    display: block;
+    padding: 10px;
+  }
 
 @media screen and (max-width: 500px) {
   .title, .credits, .poster, .logline, .potatologline, .specs, .intro, .statement, .links, .warning, .final, .film, .crew{
@@ -352,10 +361,6 @@ header a{
   .profs{
     margin: 0px;
     padding: inherit 0px;
-  }
-  nav li{
-    display: block;
-    padding: 10px;
   }
   .poster img{
     width: 100%;

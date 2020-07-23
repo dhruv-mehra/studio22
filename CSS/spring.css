@@ -51,3 +51,16 @@ p{
   background-color:#7936e1;
   padding: 0px 0px 100px;
 }
+@media screen and (max-width: 900px) {
+  .about{
+    padding:0px 10%;
+  }
+  #welcome{
+    padding: 25px 15%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .about{
+    padding:0px 8%;
+  }
+}

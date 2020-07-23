@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("July 25, 2020 17:22").getTime();
+var countDownDate = new Date("July 22, 2020 11:19").getTime();
 // Update the count down every 1 second
 var x = setInterval(function() {
 // Get today's date and time
@@ -38,7 +38,7 @@ const template =`
   const enter =`
   <div class="braff">
     <p>Welcome to Premiere!</p>
-    <p class="zach">a message from Zach Braff  (SoC '97)</p>
+    <p class="zach">a message from Zach Braff  (RTVF '97)</p>
     <div class="braff" style="padding:56.25% 0 0 0;position:relative;">
       <iframe src="https://player.vimeo.com/video/439650699?color=75ffeb&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     </div>

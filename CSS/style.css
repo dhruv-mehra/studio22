@@ -102,8 +102,6 @@ nav a{
   text-decoration: none;
   color: #888888;
 }
-.welcome{
-}
 .countdown > p{
   color: #7936e1;
   margin: 0px 0px 20px;
@@ -253,18 +251,31 @@ ol{
 
 /* responsiveness */
 @media screen and (max-width: 1100px) {
-  .welcome{
-    font-size: 1.25em;
+  .countdown{
+    font-size: 1.5em;
     width: 35%;
   }
 }
 @media screen and (max-width: 900px) {
-  .welcome{
+  .countdown{
     width: 40%;
   }
+  .film, .braff{
+    padding: 50px 10%;
+    margin: 0px;
+  }
+  .nextFilm{
+    padding: 125px 0px 50px;
+  }
+  .nextFilm a{
+    font-size: 2em;
+    padding: 25px 5%;
+    border: 5px solid #75ffeb;
+  }
+
 }
 @media screen and (max-width: 800px) {
-  .welcome{
+  .countdown{
     width: 45%;
   }
 }
@@ -274,28 +285,59 @@ ol{
     font-size: 1.3em;
     padding: 0px 0px 25px;
   }
-  .welcome{
+  .countdown{
     width: 50%;
     margin: 25px auto 0px;
-  }
-  nav li{
-    display: none;
   }
   body{
     border: 10px solid #75ffeb;
   }
+  .film, .braff{
+    padding: 25px 10%;
+    margin: 0px;
+  }
 @media screen and (max-width: 600px) {
-  .welcome{
+  .countdown{
     width: 60%;
   }
+  .film, .braff{
+    padding: 0px 10%;
+  }
+  .nextFilm a{
+    font-size: 1.5em;
+    padding: 25px 5%;
+  }
 @media screen and (max-width: 500px) {
-  .welcome{
-    width: 70%;
+  .countdown{
+    font-size: 1.5em;
+  }
+  .count p{
+    margin: 5px 0px;
+  }
+  .counter{
+    display: block;
+  }
+  .film, .braff{
+    padding: 25px 8%;
+  }
+  .film iframe{
+    border: 5px solid #75ffeb;
+  }
+  .nextFilm a{
+    font-size: 1.25em;
+    padding: 25px 5%;
+  }
+  .zach{
+    font-size: 0.6em;
+  }
+  #trailer{
+    font-size: 1.25em;
   }
 }
-@media screen and (max-width: 415px) {
-  .welcome{
-    font-size:.8em;
+@media screen and (max-width: 400px) {
+  .nextFilm a{
+    font-size: 1em;
+    padding: 25px 5%;
   }
 }
 @media screen and (max-width: 350px) {
