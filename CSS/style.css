@@ -68,7 +68,7 @@ h2{
   border: 8px solid #7936e1;
   background-color:#75ffeb;
   color: #222222;
-  margin: 0px 250px;
+  margin: 0px 15%;
 }
 h4{
   font-style: italic;
@@ -295,6 +295,10 @@ ol{
   .film, .braff{
     padding: 25px 10%;
     margin: 0px;
+  }
+  nav li{
+    display: block;
+    padding: 10px;
   }
 @media screen and (max-width: 600px) {
   .countdown{
