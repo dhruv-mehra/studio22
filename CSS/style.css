@@ -3,7 +3,9 @@
 #67e077 green purple
 #8ce0ff blue
 #f57da7 pink teal */
-
+.nav{
+  display:none;
+}
 body{
   font-family: nobel, sans-serif;
   font-weight: 200;
