@@ -10,6 +10,13 @@ body {
   font-style: normal;
   border: 0px;
 }
+.bio a{
+  text-decoration: none;
+  color: #f7cf3e;
+}
+.bio a:hover{
+  color: #222222;
+}
 /*//////////////////////header////////////////////////*/
 header{
   padding:0px 0px 50px;
