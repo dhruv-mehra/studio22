@@ -195,6 +195,10 @@ ol{
 .links a:hover{
   color: #75ffeb;
 }
+#password{
+  font-size: 1.25em;
+  padding: 0px 0px 50px;
+}
 /*//////////////////////bts////////////////////////*/
 .bts{
   text-align: center;
@@ -374,4 +378,18 @@ header a{
     padding: 10px;
   }
 }
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 450px) {
+  .nextFilm a{
+    font-size: 1.5em;
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .nextFilm{
+    padding: 50px 25px;
+  }
+  .nextFilm a{
+    font-size: 1.25em;
+    padding: 15px;
+  }
+}

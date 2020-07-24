@@ -220,6 +220,10 @@ ol{
 .film iframe{
   border: 10px solid #F5B7B1;
 }
+#password{
+  font-size: 1.25em;
+  padding: 0px 0px 50px;
+}
 /*//////////////////////nextfilm////////////////////////*/
 
 .nextFilm{
